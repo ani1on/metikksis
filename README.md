@@ -1,11 +1,11 @@
-#ПОДТЯГИВАНИЕ ЗАВИСИМОСТЕЙ:
+## ПОДТЯГИВАНИЕ ЗАВИСИМОСТЕЙ:
     ОБЯЗАТЕЛЬНО wsl [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 
     
     sudo apt install g++ make openmpi-bin openmpi-common libopenmpi-dev libopencv-dev
 
 
-#ПОСЛЕДОВАТЕЛЬНАЯ ОБРАБОТКА:
+## ПОСЛЕДОВАТЕЛЬНАЯ ОБРАБОТКА:
     сборка проекта:
         g++ -std=c++11 sequential.cpp image_tools.cpp -o sequential `pkg-config --cflags --libs opencv4`
     
@@ -13,7 +13,7 @@
         ./sequential image.jpg 0.5
 
 
-#ПАРАЛЛЕЛЬНАЯ ОБРАБОТКА:
+## ПАРАЛЛЕЛЬНАЯ ОБРАБОТКА:
 
 
     сборка проекта:
@@ -26,7 +26,7 @@
 
 
 
-#=== Sequential Image Processing (custom functions) ===
+## === Sequential Image Processing (custom functions) ===
 Input file: image.jpg
 Scale factor: 0.5
 
@@ -40,19 +40,19 @@ Scale rotated (rotate+scale): 7.401 ms
 Rotated+scaled size: 479x479
 Create canvas: 3.352 ms
 
-=== TOTAL TIME: 43.419 ms ===
+# === TOTAL TIME: 43.419 ms ===
 
 Images saved: original.jpg, rotated.jpg, scaled.jpg, rotated_scaled.jpg, result_canvas.jpg
 Press any key to exit...
 
 
 
-#=== MPI Parallel Image Processing ===
+## === MPI Parallel Image Processing ===
 Processes: 4
 Image: 959x959
 Scale factor: 0.5
 
-=== Processing Times ===
+# === Processing Times ===
 Rotation        : 4.45731 ms
 Scaling         : 2.87203 ms
 Rotate+Scale    : 4.50907 ms
