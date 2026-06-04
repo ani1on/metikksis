@@ -1,5 +1,6 @@
 # ПОДТЯГИВАНИЕ ЗАВИСИМОСТЕЙ:
-    ОБЯЗАТЕЛЬНО wsl [https://learn.microsoft.com/ru-ru/windows/wsl/install]
+## ОБЯЗАТЕЛЬНО
+WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 
     
     sudo apt install g++ make openmpi-bin openmpi-common libopenmpi-dev libopencv-dev
