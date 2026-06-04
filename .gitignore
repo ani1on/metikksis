@@ -1,0 +1,16 @@
+Compiled files
+*.o
+*.exe
+*.out
+parallel
+sequential
+
+OpenCV generated images
+*.jpg
+*.png
+result_canvas.jpg
+
+IDE
+.vscode/
+.idea/
+*.user
