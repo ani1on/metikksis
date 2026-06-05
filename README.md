@@ -1,7 +1,15 @@
 # ПОДТЯГИВАНИЕ ЗАВИСИМОСТЕЙ:
 ## ОБЯЗАТЕЛЬНО
 WSL [Ссылка на гайд по устанвке)))](https://learn.microsoft.com/ru-ru/windows/wsl/install)
+Подтягивание репы:
 
+    git clone https://github.com/ani1on/metikksis
+
+или
+
+    git clone https://github.com/ani1on/metikksis.git
+
+Установка зависимостей:
     
     sudo apt install g++ make openmpi-bin openmpi-common libopenmpi-dev libopencv-dev
 
