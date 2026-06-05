@@ -1,11 +1,11 @@
 # ПОДТЯГИВАНИЕ ЗАВИСИМОСТЕЙ:
 ## ОБЯЗАТЕЛЬНО
-WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
+WSL [Ссылка на гайд по устанвке)))](https://learn.microsoft.com/ru-ru/windows/wsl/install)
 
     
     sudo apt install g++ make openmpi-bin openmpi-common libopenmpi-dev libopencv-dev
 
-
+___
 # ПОСЛЕДОВАТЕЛЬНАЯ ОБРАБОТКА:
 сборка проекта:
 
@@ -15,7 +15,7 @@ WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 
         ./sequential image.jpg 0.5
 
-
+___
 # ПАРАЛЛЕЛЬНАЯ ОБРАБОТКА:
 
 
@@ -30,7 +30,7 @@ WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 
 
 
-
+___
 # === Sequential Image Processing (custom functions) ===
 Input file: image.jpg
 Scale factor: 0.5
@@ -51,7 +51,7 @@ Images saved: original.jpg, rotated.jpg, scaled.jpg, rotated_scaled.jpg, result_
 Press any key to exit...
 
 
-
+___
 # === MPI Parallel Image Processing ===
 Processes: 4
 Image: 959x959
