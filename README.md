@@ -70,7 +70,7 @@ Scale factor: 0.5
 Rotation        : 4.45731 ms
 Scaling         : 2.87203 ms
 Rotate+Scale    : 4.50907 ms
-# otal           : 25.941 ms
+#№ Total           : 25.941 ms
 
 Images saved: original.jpg, rotated.jpg, scaled.jpg, rotated_scaled.jpg
 Press any key to exit...
