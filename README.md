@@ -9,11 +9,11 @@ WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 # ПОСЛЕДОВАТЕЛЬНАЯ ОБРАБОТКА:
 сборка проекта:
 
-    ``g++ -std=c++11 sequential.cpp image_tools.cpp -o sequential `pkg-config --cflags --libs opencv4``
+    g++ -std=c++11 sequential.cpp image_tools.cpp -o sequential `pkg-config --cflags --libs opencv4`
     
 Запуск:
 
-        `./sequential image.jpg 0.5`
+        ./sequential image.jpg 0.5
 
 
 # ПАРАЛЛЕЛЬНАЯ ОБРАБОТКА:
@@ -21,11 +21,11 @@ WSL [https://learn.microsoft.com/ru-ru/windows/wsl/install]
 
 сборка проекта:
 
-        ``mpic++ -std=c++11 parallel.cpp image_tools.cpp -o parallel `pkg-config --cflags --libs opencv4``
+        mpic++ -std=c++11 parallel.cpp image_tools.cpp -o parallel `pkg-config --cflags --libs opencv4`
 
 Запуск файла:
 
-        `mpirun -np 4 --oversubscribe ./parallel image.jpg 0.5`
+        mpirun -np 4 --oversubscribe ./parallel image.jpg 0.5
 
 
 
